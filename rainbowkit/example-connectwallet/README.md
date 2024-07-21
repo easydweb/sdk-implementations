@@ -1,4 +1,4 @@
-## RainbowKit Connectwallet
+## RainbowKit ConnectWallet
 
 Dependencies Required
 ```bash
