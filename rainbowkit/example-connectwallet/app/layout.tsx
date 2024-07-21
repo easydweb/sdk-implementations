@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
-  description: "Implementing Rainbowkit wallet connection",
+  description: "Implementing Rainbowkit connectWallet",
 };
 
 export default function RootLayout({
