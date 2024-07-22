@@ -1,0 +1,14 @@
+type lenspublication
+  @createModel(accountRelation: LIST, description: "lenspublication") {
+  owner: DID! @documentAccount
+  publication_type: String! @string(maxLength: 100)
+  profile_id: String! @string(maxLength: 100)
+  pub_id: String! @string(maxLength: 100)
+  model_id: String @string(maxLength: 100)
+  profile_id_pointed: String @string(maxLength: 100)
+  pub_id_pointed: String @string(maxLength: 100)
+  content_uri: String @string(maxLength: 10000)
+  collect_module: String @string(maxLength: 100)
+  reference_module: String! @string(maxLength: 100)
+  created_at: Int!
+}

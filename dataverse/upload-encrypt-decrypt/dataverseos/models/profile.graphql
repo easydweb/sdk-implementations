@@ -1,0 +1,8 @@
+type profile @createModel(accountRelation: SINGLE, description: "profile") {
+  author: DID! @documentAccount
+  version: CommitID! @documentVersion
+  name: String! @string(maxLength: 100)
+  description: String! @string(maxLength: 10000)
+  image: String! @string(maxLength: 1000)
+  background: String! @string(maxLength: 1000)
+}

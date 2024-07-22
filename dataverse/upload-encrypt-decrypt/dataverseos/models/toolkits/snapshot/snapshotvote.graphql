@@ -1,0 +1,14 @@
+type snapshotvote
+  @createModel(accountRelation: LIST, description: "snapshot vote") {
+  voter: DID! @documentAccount
+  vote_id: String! @string(maxLength: 66)
+  proposal_id: String! @string(maxLength: 66)
+  ipfs: CID!
+  space: String! @string(maxLength: 12000)
+  type: String @string(maxLength: 2000)
+  reason: String! @string(maxLength: 2000000)
+  relayer_address: String! @string(maxLength: 42)
+  relayer_receipt: String! @string(maxLength: 12000)
+  app: String! @string(maxLength: 2000000)
+  created_at: Int
+}

@@ -1,0 +1,10 @@
+type dataverse_contentFolder
+  @createModel(accountRelation: LIST, description: "dataverse_contentFolder") {
+  fsVersion: String @string(maxLength: 1000)
+  indexFolderId: String! @string(maxLength: 1000)
+  mirrorFileIds: [String!]
+    @list(minLength: 0, maxLength: 300000000)
+    @string(maxLength: 2000)
+  encryptedFileKeys: String @string(maxLength: 300000000)
+  reserved: String @string(maxLength: 300000000)
+}

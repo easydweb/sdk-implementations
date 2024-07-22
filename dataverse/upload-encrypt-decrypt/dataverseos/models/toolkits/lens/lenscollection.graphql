@@ -1,0 +1,14 @@
+type lenscollection
+  @createModel(accountRelation: LIST, description: "lenscollection") {
+  owner: DID! @documentAccount
+  profile_id: String! @string(maxLength: 100)
+  pub_id: String! @string(maxLength: 100)
+  model_id: String! @string(maxLength: 100)
+  stream_id: String! @string(maxLength: 100)
+  collector: String! @string(maxLength: 100)
+  currency: String! @string(maxLength: 100)
+  amount: String! @string(maxLength: 100)
+  collect_limit: String! @string(maxLength: 100)
+  collect_nft: String! @string(maxLength: 100)
+  collected_at: Int!
+}

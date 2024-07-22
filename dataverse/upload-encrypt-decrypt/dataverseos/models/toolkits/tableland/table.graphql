@@ -1,0 +1,9 @@
+type table @createModel(accountRelation: LIST, description: "table") {
+  owner: DID! @documentAccount
+  tableId: String! @string(maxLength: 200000)
+  table_name: String! @string(maxLength: 200000)
+  create_sql: String! @string(maxLength: 300000000)
+  chainId: Int!
+  columns: String! @string(maxLength: 300000000)
+  created_at: DateTime!
+}

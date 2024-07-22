@@ -1,0 +1,13 @@
+type dataverse_actionFile
+  @createModel(accountRelation: LIST, description: "dataverse_actionFile") {
+  fsVersion: String @string(maxLength: 1000)
+  action: String! @string(maxLength: 300000000)
+  relationId: String! @string(maxLength: 1000)
+  fileName: String! @string(maxLength: 300000000)
+  fileType: Int!
+  accessControl: String @string(maxLength: 300000000)
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  deleted: Boolean
+  reserved: String @string(maxLength: 300000000)
+}

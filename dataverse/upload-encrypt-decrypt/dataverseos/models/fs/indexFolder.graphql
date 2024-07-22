@@ -1,0 +1,17 @@
+type dataverse_indexFolder
+  @createModel(accountRelation: LIST, description: "dataverse_indexFolder") {
+  fsVersion: String @string(maxLength: 1000)
+  folderName: String! @string(maxLength: 300000000)
+  folderType: Int!
+  contentFolderIds: [String!]!
+    @list(minLength: 1, maxLength: 10000)
+    @string(maxLength: 2000)
+  accessControl: String @string(maxLength: 300000000)
+  parentFolderId: String @string(maxLength: 1000)
+  childFolderIds: [String] @list(maxLength: 10000) @string(maxLength: 2000)
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  deleted: Boolean
+  options: String @string(maxLength: 300000000)
+  reserved: String @string(maxLength: 300000000)
+}

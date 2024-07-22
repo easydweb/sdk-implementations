@@ -1,0 +1,19 @@
+type pushnotification
+  @createModel(accountRelation: LIST, description: "pushnotification") {
+  channel_owner: DID! @documentAccount
+  recipient: [DID] @list(maxLength: 2000000)
+  channel: String! @string(maxLength: 2000000)
+  cta: String @string(maxLength: 2000000)
+  title: String @string(maxLength: 2000000)
+  message: String @string(maxLength: 300000000)
+  icon: String @string(maxLength: 2000000)
+  url: String @string(maxLength: 2000000)
+  sid: String @string(maxLength: 2000000)
+  app: String @string(maxLength: 2000000)
+  image: String @string(maxLength: 2000000)
+  blockchain: String @string(maxLength: 2000000)
+  notification_body: String! @string(maxLength: 300000000)
+  notification_title: String! @string(maxLength: 2000000)
+  secret: String @string(maxLength: 300000000)
+  createdAt: DateTime!
+}

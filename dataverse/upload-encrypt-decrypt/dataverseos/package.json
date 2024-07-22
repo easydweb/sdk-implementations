@@ -1,0 +1,44 @@
+{
+  "name": "examples-with-toolkits",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@composedb/devtools": "^0.4.4",
+    "@dataverse/dataverse-connector": "^1.0.25",
+    "@dataverse/hooks": "^1.0.25",
+    "@dataverse/lens-client-toolkit": "^1.0.27",
+    "@dataverse/livepeer-client-toolkit": "^1.0.27",
+    "@dataverse/model-parser": "^1.0.2",
+    "@dataverse/push-client-toolkit": "^1.0.27",
+    "@dataverse/snapshot-client-toolkit": "^1.0.27",
+    "@dataverse/wallet-provider": "^1.0.12",
+    "@dataverse/xmtp-client-toolkit": "^1.0.27",
+    "@livepeer/react": "2.8.0",
+    "buffer": "^6.0.3",
+    "ethers": "5.6.9",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-json-view": "^1.21.3",
+    "react-router-dom": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "env-cmd": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "typescript": "^4.6.4",
+    "vite": "^2.4.4"
+  }
+}

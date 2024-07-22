@@ -1,0 +1,5 @@
+type xmtpkeycache
+  @createModel(accountRelation: LIST, description: "xmtp key cache") {
+  owner: DID! @documentAccount
+  keys: String! @string(maxLength: 30000000)
+}

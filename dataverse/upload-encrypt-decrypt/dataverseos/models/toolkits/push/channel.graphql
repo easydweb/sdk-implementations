@@ -1,0 +1,24 @@
+type pushchannel
+  @createModel(accountRelation: LIST, description: "pushchannel") {
+  channel_owner: DID! @documentAccount
+  channel_id: Int
+  channel: String! @string(maxLength: 2000000)
+  ipfshash: CID!
+  name: String @string(maxLength: 2000000)
+  info: String @string(maxLength: 2000000)
+  url: String @string(maxLength: 2000000)
+  icon: String @string(maxLength: 2000000)
+  processed: Int
+  attempts: Int
+  alias_address: String @string(maxLength: 2000000)
+  alias_verification_event: String @string(maxLength: 2000000)
+  is_alias_verified: Int
+  alias_blockchain_id: String @string(maxLength: 2000000)
+  activation_status: Int
+  verified_status: Int
+  timestamp: DateTime
+  blocked: Int
+  counter: Int
+  subgraph_details: String @string(maxLength: 2000000)
+  subgraph_attempts: Int
+}

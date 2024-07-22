@@ -1,0 +1,18 @@
+type snapshotproposal
+  @createModel(accountRelation: LIST, description: "snapshot proposal") {
+  author: DID! @documentAccount
+  proposal_id: String! @string(maxLength: 66)
+  ipfs: CID!
+  title: String! @string(maxLength: 128)
+  body: String! @string(maxLength: 14400)
+  type: String @string(maxLength: 128)
+  choices: String! @string(maxLength: 2000000)
+  start: Int
+  end: Int
+  snapshot: String! @string(maxLength: 128)
+  space: String! @string(maxLength: 12000)
+  relayer_address: String! @string(maxLength: 42)
+  relayer_receipt: String! @string(maxLength: 12000)
+  created_at: Int
+  app: String! @string(maxLength: 2000000)
+}

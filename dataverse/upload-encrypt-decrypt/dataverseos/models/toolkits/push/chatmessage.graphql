@@ -1,0 +1,19 @@
+type pushchatmessage
+  @createModel(accountRelation: LIST, description: "pushchatmessage") {
+  keeper: DID! @documentAccount
+  from: DID! @accountReference
+  to: DID! @accountReference
+  from_CAIP10: String! @string(maxLength: 100)
+  to_CAIP10: String! @string(maxLength: 100)
+  from_DID: String! @string(maxLength: 100)
+  to_DID: String! @string(maxLength: 100)
+  message_Content: String! @string(maxLength: 300000000)
+  message_type: String! @string(maxLength: 100)
+  signature: String! @string(maxLength: 300000000)
+  timestamp: Int!
+  sig_type: String! @string(maxLength: 100)
+  enc_type: String! @string(maxLength: 100)
+  encrypted_secret: String! @string(maxLength: 300000000)
+  link: String @string(maxLength: 200000)
+  cid: String @string(maxLength: 200000)
+}

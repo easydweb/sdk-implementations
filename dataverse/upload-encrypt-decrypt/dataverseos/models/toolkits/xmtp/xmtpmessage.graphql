@@ -1,0 +1,12 @@
+type xmtpmessage
+  @createModel(accountRelation: LIST, description: "xmtp message") {
+  keeper: DID! @documentAccount
+  sender_address: String @string(maxLength: 100)
+  recipient_address: String @string(maxLength: 100)
+  content: String @string(maxLength: 30000000)
+  content_topic: String @string(maxLength: 30000000)
+  content_type: String @string(maxLength: 30000000)
+  message_id: String @string(maxLength: 2000000)
+  message_version: String @string(maxLength: 100)
+  created_at: DateTime
+}
