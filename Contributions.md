@@ -1,2 +1,2 @@
-[anshss](https://github.com/anshss) : lighthouse/example-encryption
-[akashbiswas](https://github.com/akashbiswas0) : rainbowkit/example-connectwallet
+lighthouse/encrypt-decrypt: [anshss](https://github.com/anshss)</br>
+rainbowkit/connect-wallet: [akashbiswas](https://github.com/akashbiswas0) </br>
