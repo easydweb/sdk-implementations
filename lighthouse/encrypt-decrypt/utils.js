@@ -35,8 +35,6 @@ export async function encryptUsingLighthouse(textData) {
         //   )
 
         console.log("Upload Successful", output);
-
-        await applyAccessConditions(output.data.Hash);
         console.log("cid", output.data.Hash);
 
         return output.data.Hash;
