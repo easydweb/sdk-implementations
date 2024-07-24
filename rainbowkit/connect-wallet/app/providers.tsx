@@ -24,7 +24,7 @@ const { wallets } = getDefaultWallets();
 
 const config = getDefaultConfig({
   appName: "RainbowKit demo",
-  projectId: process.env.ProjectId, //Enter your projectID here
+  projectId: process.env.NEXT_PUBLIC_Project_Id, //Enter your projectID here
   wallets: [
     ...wallets,
     {
