@@ -1,4 +1,4 @@
-## Pinata file upload
+## Wallet auth with dynamic
 
 packages
 
