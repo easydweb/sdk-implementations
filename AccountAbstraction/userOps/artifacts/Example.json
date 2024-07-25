@@ -1,0 +1,48 @@
+{
+    "contracts": {
+        "contracts/Example.sol:Example": {
+            "abi": [
+                {
+                    "anonymous": false,
+                    "inputs": [
+                        {
+                            "indexed": false,
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "NumChanged",
+                    "type": "event"
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "_num",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "changeNum",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                },
+                {
+                    "inputs": [],
+                    "name": "num",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "view",
+                    "type": "function"
+                }
+            ],
+            "bin": "6080604052348015600e575f80fd5b506101778061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610034575f3560e01c80632b311337146100385780634e70b1dc14610054575b5f80fd5b610052600480360381019061004d91906100ee565b610072565b005b61005c6100b2565b6040516100699190610128565b60405180910390f35b805f819055507f0969e25fb400bee82e6104dfd1bc672b0fe0b21c14f577fb803c1070b1dcc855816040516100a79190610128565b60405180910390a150565b5f5481565b5f80fd5b5f819050919050565b6100cd816100bb565b81146100d7575f80fd5b50565b5f813590506100e8816100c4565b92915050565b5f60208284031215610103576101026100b7565b5b5f610110848285016100da565b91505092915050565b610122816100bb565b82525050565b5f60208201905061013b5f830184610119565b9291505056fea264697066735822122047df64a4dc0e68c72f83a9fa9d6e285d223bfee47e86335dbefefa7148a6fb0c64736f6c63430008190033"
+        }
+    }
+}
