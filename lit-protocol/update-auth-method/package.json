@@ -1,0 +1,55 @@
+{
+    "name": "nn",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@craco/craco": "^7.1.0",
+        "@lit-protocol/auth-helpers": "^6.2.2",
+        "@lit-protocol/contracts-sdk": "^6.2.2",
+        "@lit-protocol/lit-auth-client": "^6.2.2",
+        "@lit-protocol/lit-node-client": "^6.2.2",
+        "@lit-protocol/pkp-ethers": "^6.2.2",
+        "@lit-protocol/types": "^6.2.2",
+        "@simplewebauthn/browser": "^10.0.0",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "ethers": "^5.7.2",
+        "ipfs-helpers": "^0.0.5",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-scripts": "5.0.1",
+        "stream-browserify": "^3.0.0",
+        "vm-browserify": "^1.1.2",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "dotenv": "^16.4.5"
+    }
+}
