@@ -2,6 +2,10 @@
 
 This project implements a swap interface using the Swing SDK, React, and Web3React. It allows users to perform cross-chain token swaps with a simple and intuitive UI.
 
+## Video Demo
+   
+[![Swing SDK Swap Component Demo](https://img.youtube.com/vi/vp1_dFfu0q4/0.jpg)](https://youtu.be/vp1_dFfu0q4)
+
 ## Features
 
 - Cross-chain token swaps
