@@ -6,4 +6,4 @@ alchemy/account-abstraction-userOps: [panditdhamdhere](https://github.com/pandit
 coinbase/coinbase-smart-wallet: [panditdhamdhere](https://github.com/panditdhamdhere) </br>
 movement/razor-wallet: [panditdhamdhere](https://github.com/panditdhamdhere) </br>
 swing/swaps:[yashj09](https://github.com/yashj09) </br>
-
+rootstock/rsk-wagmi-starter-kit:[panditdhamdhere](https://github.com/panditdhamdhere) </br>
