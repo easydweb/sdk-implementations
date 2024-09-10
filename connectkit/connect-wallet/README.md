@@ -1,4 +1,4 @@
-# Multi-Chain dApp Starter Kit
+# connectkit Starter Kit
 
 Welcome to the Multi-Chain dApp Starter Kit! This project provides a solid foundation for building decentralized applications (dApps) that support multiple blockchain networks. Built with Next.js, ConnectKit, and Wagmi, this starter kit offers an out-of-the-box solution for creating Web3 applications with a seamless wallet connection experience.
 
