@@ -13,7 +13,7 @@ export default function Home(){
 
  const {data: currentCount, refetch} = useReadContract({
   abi,
-  address: (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as `0x${string}`),
+  address: "0xAB7391FBbCE3a30bf0418bB3A55F8634dE4629b4",
   functionName: "number",
  }); 
 
@@ -23,7 +23,7 @@ export default function Home(){
   try {
     await writeContract({
       abi,
-      address: (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as `0x${string}`),
+      address: "0xAB7391FBbCE3a30bf0418bB3A55F8634dE4629b4",
       functionName: "increment",
     })
   } catch (error) {
@@ -35,7 +35,7 @@ export default function Home(){
   try {
     await writeContract({
       abi,
-      address: (process.env.NEXT_PUBLIC_CONTRACT_ADDRESS as `0x${string}`),
+      address: "0xAB7391FBbCE3a30bf0418bB3A55F8634dE4629b4",
       functionName: "decrement",
     })
   } catch (error) {
