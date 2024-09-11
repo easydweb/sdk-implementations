@@ -7,4 +7,6 @@ coinbase/coinbase-smart-wallet: [panditdhamdhere](https://github.com/panditdhamd
 movement/razor-wallet: [panditdhamdhere](https://github.com/panditdhamdhere) </br>
 swing/swaps:[yashj09](https://github.com/yashj09) </br>
 connectkit/connect-wallet:[AbhishekThakur](https://github.com/AbhishekThak344)</br>
+morph/morph-starter-kit:[Aditya kr](https://github.com/Adityaakr)</br>
+
 
