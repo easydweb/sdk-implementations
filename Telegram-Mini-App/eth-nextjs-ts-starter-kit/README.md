@@ -4,6 +4,8 @@
 
 This starter kit helps you create a mini application integrated with Ethereum and Telegram. Follow the steps below to set up and run the project.
 
+[![Watch Video Tutorial](http://i.ytimg.com/vi/cFLKu4sl76I/hqdefault.jpg)](https://www.youtube.com/watch?v=cFLKu4sl76I)
+
 ### Prerequisites
 
 Ensure you have the following installed on your machine:
