@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-black text-foreground;
+  }
+}
+
+@font-face {
+  font-family: "NeueMachina-100";
+  src: url("/fonts/NeueMachina-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-400";
+  src: url("/fonts/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NeueMachina-800";
+  src: url("/fonts/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+.scroller {
+  width: calc(100vw - 2rem) !important;
+  max-width: 900px;
+  margin-inline: auto;
+  padding-block: 30px;
+  border-radius: 10px;
+  color: black;
+  font-size: larger;
+  @apply bg-fuchsia-500 font-neueMachinaBold;
+}
+
+.inner-scroller {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.active-scroller {
+  width: 100%;
+  overflow: hidden;
+}
+
+.active-scroller .inner-scroller p {
+  white-space: nowrap;
+}
+
+.active-scroller .inner-scroller {
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 1.5rem));
+  }
+}
