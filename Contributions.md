@@ -15,3 +15,4 @@
 - **pinata/upload-file**: [anshss](https://github.com/anshss)
 - **rootstock/rsk-wagmi-starter-kit**: [panditdhamdhere](https://github.com/panditdhamdhere)
 - **aarc/bridge**: [panditdhamdhere](https://github.com/panditdhamdhere)
+- **world-coin/IDKit**: [panditdhamdhere](https://github.com/panditdhamdhere)
