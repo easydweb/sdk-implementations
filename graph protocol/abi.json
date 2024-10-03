@@ -1,0 +1,91 @@
+[{
+        "anonymous": false,
+        "inputs": [{
+            "indexed": false,
+            "internalType": "string",
+            "name": "name",
+            "type": "string"
+        }],
+        "name": "ChangeNameEvent",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [{
+                "indexed": false,
+                "internalType": "address",
+                "name": "from",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+            }
+        ],
+        "name": "TransferEvent",
+        "type": "event"
+    },
+    {
+        "inputs": [{
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+        }],
+        "name": "changeId",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [{
+            "internalType": "string",
+            "name": "_name",
+            "type": "string"
+        }],
+        "name": "changeName",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "id",
+        "outputs": [{
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+        }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "name",
+        "outputs": [{
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+        }],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [{
+            "internalType": "address payable",
+            "name": "to",
+            "type": "address"
+        }],
+        "name": "transfer",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    }
+]

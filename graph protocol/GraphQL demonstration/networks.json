@@ -1,0 +1,8 @@
+{
+  "arbitrum-sepolia": {
+    "Transfer": {
+      "address": "0xdeef88ee36e885e2a75b0ec592b8bb9460e2152b",
+      "startBlock": 85733735
+    }
+  }
+}
