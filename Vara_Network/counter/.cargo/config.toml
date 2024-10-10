@@ -1,0 +1,6 @@
+[build]
+target = "wasm32-unknown-unknown"
+rustflags = [
+    "-C", "link-args=--import-memory",
+    "-C", "linker-plugin-lto",
+]
