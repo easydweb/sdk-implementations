@@ -1,0 +1,13 @@
+/home/kernel/sdk-implementations/Vara_Network/counter/target/wasm32-unknown-unknown/release/deps/libgcore-f20f82fbf28f696c.rmeta: /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/lib.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/errors.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/exec.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/msg.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/prog.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/general.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/utils.rs
+
+/home/kernel/sdk-implementations/Vara_Network/counter/target/wasm32-unknown-unknown/release/deps/libgcore-f20f82fbf28f696c.rlib: /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/lib.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/errors.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/exec.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/msg.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/prog.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/general.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/utils.rs
+
+/home/kernel/sdk-implementations/Vara_Network/counter/target/wasm32-unknown-unknown/release/deps/gcore-f20f82fbf28f696c.d: /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/lib.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/errors.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/exec.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/msg.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/prog.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/general.rs /home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/utils.rs
+
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/lib.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/errors.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/exec.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/msg.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/prog.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/general.rs:
+/home/kernel/.cargo/git/checkouts/gear-bdc2b7d48ef3acbd/33ee05d/gcore/src/utils.rs:
