@@ -16,3 +16,4 @@
 - **rootstock/rsk-wagmi-starter-kit**: [panditdhamdhere](https://github.com/panditdhamdhere)
 - **aarc/bridge**: [panditdhamdhere](https://github.com/panditdhamdhere)
 - **world-coin/IDKit**: [panditdhamdhere](https://github.com/panditdhamdhere)
+- **reown/connect-wallet**: [AbhishekThakur](https://github.com/AbhishekThak344)
